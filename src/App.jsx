@@ -2,6 +2,7 @@ import List from './List.jsx';
 import Button from './Button.jsx';
 import MyComponent from './MyComponent.jsx';
 import Counter from './Counter.jsx';
+import MyComponent2 from './MyComponent2.jsx';
 function App()
 {
    const fruits=[{id:1,name:"Apple",calory:95},
@@ -19,9 +20,10 @@ function App()
    return(<>
      {/* <List items={fruits} />  
      <List items={vegetables} category="vegetables"/>
-     <Button/>  */}
-     {/* <MyComponent/> */}
-     <Counter/>
+     <Button/> 
+     <MyComponent/>
+     <Counter/> */}
+     <MyComponent2/>
    </>)
 }
 export default App;
