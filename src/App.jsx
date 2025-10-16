@@ -14,7 +14,7 @@ function App()
                  {id:10,name:"Broccoli",calory:50}
                 ];
    return(<>
-     <List items={fruits} category="fruits"/>  
+     <List items={fruits} />  
      <List items={vegetables} category="vegetables"/> 
    </>)
 }
