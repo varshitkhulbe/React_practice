@@ -18,3 +18,16 @@
     text-align: center;
     margin:0;
 }
+.button
+{
+    font-size:1.5rem;
+    width: 250px;
+    background-color: rgb(23, 87, 26);
+    color:white;
+    border-radius:10%;
+    padding:10px 20px 10px 20px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}

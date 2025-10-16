@@ -1,4 +1,5 @@
 import List from './List.jsx';
+import Button from './Button.jsx';
 function App()
 {
    const fruits=[{id:1,name:"Apple",calory:95},
@@ -15,7 +16,8 @@ function App()
                 ];
    return(<>
      <List items={fruits} />  
-     <List items={vegetables} category="vegetables"/> 
+     <List items={vegetables} category="vegetables"/>
+     <Button/> 
    </>)
 }
 export default App;
